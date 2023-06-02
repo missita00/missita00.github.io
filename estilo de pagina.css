@@ -8,11 +8,74 @@
     
     html {
         scroll-behavior: smooth;
+        
       }
+
+      .adaptacion{
+        width: 99%;
+      }
+      */telefono
+
+      @media (max-width: 767px){
+        .compu{
+
+        }
+
+        .tablet{
+
+        }
+
+        .telefono{
+
+        }
+
+      }
+
+
+    */tablet
+      @media (min-width:768px) and (max-width: 990px){
+        .compu{
+            display: none;
+
+        }
+
+        .tablet{
+            display: none;
+
+        }
+
+        .telefono{
+            display: none;
+            
+        }
+
+      }
+      */compu
+
+      @media (min-width:991px) and (max-width: ) {
+        .compu{
+            display: none;
+
+        }
+
+        .tablet{
+            display: none;
+
+        }
+
+        .telefono{
+            display: none;
+            
+        }
+
+      }
+    
 
 
       .header{
         align-items: center;
+        position: fixed;
+    
       }
 
 
@@ -31,6 +94,8 @@
         top: 0%;
         left: 0%;
         text-align: left;
+      
+       
 
         
     }
@@ -52,6 +117,8 @@
         padding: 0 3%;
         transition: 5s;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      
+         
     }
        
     
@@ -64,6 +131,7 @@ nav a{
     margin: 0 40px;
     padding: 5 20px;
     border-radius: 65px;
+    
  
 }
 
@@ -71,11 +139,14 @@ nav a:hover{
 
     background-color: #94d8ef;
     color: rgb(0, 0, 0);
+
 }
 
 section [id]{
     scroll-margin-top: 70px;
     position: fixed;
+  
+     
 }
 
 body {
@@ -84,8 +155,12 @@ font-family: 'Courier New', Courier, monospace;
     ;
     background-color: rgb(65, 29, 65);
     text-align: center;
+  
      
 }
+
+
+
 
 
 h1 {
@@ -97,6 +172,8 @@ h1 {
     text-shadow: 4px 3px 0 #000000;
     margin-top: 5px;
     margin-bottom: 5px;
+   
+     
 }
 
 h2{
@@ -107,6 +184,7 @@ h2{
     text-shadow: 4px 3px 0 #000000;
     margin-top: 5px;
     margin-bottom: 5px;
+   
 }
 
 h3 {
@@ -118,6 +196,8 @@ h3 {
     text-shadow: 4px 3px 0 #000000;
     margin-top: 5px;
     margin-bottom: 5px;
+  
+     
 }
 
 
@@ -125,6 +205,8 @@ h3 {
 p{
     font-size: 15px;
     text-align: center;
+    
+     
 }
 
 img{
